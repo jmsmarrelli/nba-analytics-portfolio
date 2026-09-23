@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basketball statistics portfolio</title>
+<meta name="description" content="Joseph Smarrelli · September 2026">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --surface:#fcfcfb; --raised:#f4f3ef; --ink:#0b0b0b; --ink-2:#43423f; --ink-3:#7d7b74;
+  --rule:#e3e2dc; --accent:#1c5cab; --mark:#eb6834;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --surface:#14140f; --raised:#1e1e18; --ink:#f2f1ec; --ink-2:#c9c7bf; --ink-3:#8d8b83;
+    --rule:#2e2e27; --accent:#7fb0f0; --mark:#f2895a;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--surface); color:var(--ink);
+  font:400 17px/1.62 "Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-feature-settings:"kern" 1;
+}
+.wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+.bar{border-bottom:1px solid var(--rule);background:var(--surface)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:baseline;padding-top:16px;padding-bottom:15px}
+.bar .slug{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;letter-spacing:.02em;color:var(--ink-2)
+}
+.bar nav{margin-left:auto;display:flex;gap:18px}
+.bar a{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;color:var(--ink-3);text-decoration:none;border-bottom:1px solid transparent
+}
+.bar a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+main{padding:0 0 96px}
+.col{max-width:700px}
+h1{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:700;font-size:clamp(30px,5.4vw,46px);line-height:1.08;
+  letter-spacing:-.022em;margin:54px 0 20px;max-width:640px
+}
+h2{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:600;font-size:22px;line-height:1.24;letter-spacing:-.012em;
+  margin:52px 0 14px;max-width:700px
+}
+h3{font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:600;
+  font-size:18.5px;letter-spacing:-.008em;margin:40px 0 8px}
+p.meta{font-size:14.5px;color:var(--ink-3);margin:-2px 0 16px}
+p.meta a{border-bottom-color:transparent}
+p.meta a:hover{border-bottom-color:currentColor}
+p{margin:0 0 18px;max-width:700px}
+p strong{font-weight:600}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(28,92,171,.32)}
+a:hover{border-bottom-color:currentColor}
+hr{border:0;border-top:1px solid var(--rule);margin:46px 0}
+ul,ol{margin:0 0 18px;padding-left:22px;max-width:700px}
+li{margin:0 0 8px}
+li>p{margin:0 0 8px}
+code{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.86em;background:var(--raised);padding:.12em .34em;border-radius:3px
+}
+pre{
+  background:var(--raised);border:1px solid var(--rule);border-radius:5px;
+  padding:15px 17px;overflow-x:auto;margin:0 0 22px;max-width:820px
+}
+pre code{background:none;padding:0;font-size:13px;line-height:1.55}
+em{color:var(--ink-2)}
+.tw{overflow-x:auto;margin:0 0 26px;max-width:980px}
+table{border-collapse:collapse;font-size:14.5px;min-width:100%}
+th,td{padding:7px 15px 7px 0;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;text-transform:uppercase;letter-spacing:.055em;
+  color:var(--ink-3);font-weight:500;border-bottom-color:var(--ink-3);white-space:normal
+}
+td.num{text-align:right;font-variant-numeric:tabular-nums;padding-right:22px}
+th.num{text-align:right;padding-right:22px}
+tbody tr:last-child td{border-bottom:0}
+figure{margin:30px 0 34px;max-width:980px}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:4px}
+.foot{border-top:1px solid var(--rule);padding:22px 0 40px}
+.foot .wrap{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  h1{margin-top:36px}
+  th,td{padding-right:14px}
+}
+</style>
+</head>
+<body>
+<header class="bar"><div class="wrap"><span class="slug">nba-analytics-portfolio</span><nav><a href="https://github.com/jmsmarrelli/nba-analytics-portfolio">repository</a><a href="https://jmsmarrelli.github.io/basketball-analytics/">all projects</a></nav></div></header>
+<main><div class="wrap">
+<h1>Basketball statistics portfolio</h1>
+<p>Joseph Smarrelli · September 2026</p>
+<p>Eight studies of NBA lineup data, player impact, forecasting, shot context, development, playing style and the 2026 Finals. The package contains finished articles, regenerated figures, Python and R source, review notebooks, derived tables and a pinned source manifest.</p>
+<h2>Read the studies</h2>
+<ul>
+<li><a href="reports/01_data_pipeline.html">When a lineup reconstruction is ready to use</a></li>
+<li><a href="reports/02_lineup_optimizer.html">A rotation optimizer can lose to the allocation it replaces</a></li>
+<li><a href="reports/03_wemby_impact.html">Three views of Wembanyama’s defensive season</a></li>
+<li><a href="reports/04_season_simulator.html">A historical baseline for the next season</a></li>
+<li><a href="reports/05_shot_quality.html">Separating recorded shot context from conversion</a></li>
+<li><a href="reports/06_development_curves_R.html">What an experience curve can tell the Spurs</a></li>
+<li><a href="reports/07_contender_style_R.html">Where the contenders sit in shot-location space</a></li>
+<li><a href="reports/08_finals_postmortem_R.html">The first-quarter lead and the rest of the Finals</a></li>
+</ul>
+<h2>Reproduce</h2>
+<p>Python 3.12 and R 4.6.1 were used for this release. The R analyses require only standard R libraries. From this repository’s root:</p>
+<pre><code class="language-sh">python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+make fetch PYTHON=python
+make all PYTHON=python
+</code></pre>
+<p>The download retrieves 65 pinned archives, about 158 MiB compressed, and verifies SHA-256 hashes before extracting the expected CSV member. Raw and processed caches are excluded from the distribution. The complete build reconstructs the missing analysis inputs before running the projects. Existing processed tables are reused; pass <code>--force</code> to <code>python -m nbalab.pipeline build</code> after changing reconstruction code.</p>
+<p>For a quick check of the included results:</p>
+<pre><code class="language-sh">python -m pytest tests -q
+Rscript projects/06_development_curves_R/analysis.R
+Rscript projects/07_contender_style_R/analysis.R
+Rscript projects/08_finals_postmortem_R/analysis.R
+</code></pre>
+<p>The small R extracts are included, so these three runs do not require a raw download. The notebooks recalculate selected results and checks from delivered tables; the source scripts perform the complete model fits. They are different levels of reproduction, documented in each notebook.</p>
+<h2>How to read the findings</h2>
+<p>The rotation exercise does not show a successful improvement. The defensive study adjusts for listed players but makes no claim to isolate a causal effect. The simulator is a historical carry-over baseline with rolling evaluation and a fixed playoff bracket. The shot model conditions on recorded attempts. The development curve estimates a population mean, and the Finals resampling is a sensitivity exercise.</p>
+<p>These limits define what the projects measure. None is represented as work deployed by an NBA team, a current injury-adjusted forecast or completed film coding.</p>
+<p>See <a href="https://github.com/jmsmarrelli/nba-analytics-portfolio/blob/main/METHODS.md">METHODS.md</a>, <a href="https://github.com/jmsmarrelli/nba-analytics-portfolio/blob/main/VALIDATION.md">VALIDATION.md</a>, <a href="https://github.com/jmsmarrelli/nba-analytics-portfolio/blob/main/CHANGELOG.md">CHANGELOG.md</a> and <a href="https://github.com/jmsmarrelli/nba-analytics-portfolio/blob/main/data/README.md">data/README.md</a>.</p>
+<h2>Sources and rights</h2>
+<p>Input records come from the <a href="https://github.com/shufinskiy/nba_data/tree/e829d4678be1e075f99e5d41a1c5f97089be446b">versioned public NBA archive</a>. The source manifest identifies each archive, URL and checksum. Code and documentation use the included MIT license; original data remain subject to their owners’ terms.</p>
+</div></main>
+<footer class="foot"><div class="wrap"><span>nba-analytics-portfolio</span><span>figures and tables regenerated by the pipeline in this repository</span></div></footer>
+</body>
+</html>

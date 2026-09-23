@@ -1,0 +1,20 @@
+{
+  "carryover": {
+    "slope": 0.5364317777377817,
+    "intercept": 0.013850474670992124,
+    "resid_sd": 4.484286927622022,
+    "n": 180,
+    "r": 0.5157297205592382
+  },
+  "game_noise": {
+    "hca": 1.8503514487326898,
+    "sd": 13.424349288375566
+  },
+  "simulations": 20000,
+  "backtest_rows": 120,
+  "backtest_mae": 8.564040449988063,
+  "backtest_bias": 0.09482049224926715,
+  "backtest_80_coverage": 0.8,
+  "seed": 20262027,
+  "roster_adjustments": false
+}

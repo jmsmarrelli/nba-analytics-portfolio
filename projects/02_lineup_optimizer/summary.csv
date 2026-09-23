@@ -1,0 +1,2 @@
+team_net_as_played,optimiser_in_sample,optimised_holdout,actual_holdout,headroom,null_gain_mean,null_gain_sd,headroom_percentile_vs_null,holdout_coverage,tau,shrinkage_k,train_games,test_games
+8.255401483392454,7.156882967517787,11.448150543898329,19.384543005374418,-7.936392461476089,-5.686372881481994,5.443322871072131,34.5,1.0,3.6100040021384237,2438.2265840859677,44,30

@@ -1,0 +1,460 @@
+{
+  "commit": "e829d4678be1e075f99e5d41a1c5f97089be446b",
+  "files": [
+    {
+      "name": "matchups_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2019.tar.xz",
+      "bytes": 3116560,
+      "sha256": "930ee633aa45645ace1e3c4c6111139ee0c85363d74786ec2ad96e6ae9b95ea4",
+      "git_blob": "df8ac46c0093f5e7bbec2454faba550f0cb86381"
+    },
+    {
+      "name": "matchups_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2020.tar.xz",
+      "bytes": 3469884,
+      "sha256": "2d5ea06bf51c59fe0903e90a81de601d3d1751b15e811d2ba731ab68846d4dd8",
+      "git_blob": "fcf3ce2b8ac8d164ebe94894fcd0a6fef6674e50"
+    },
+    {
+      "name": "matchups_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2021.tar.xz",
+      "bytes": 3962984,
+      "sha256": "71e5fff86639b5e08d29a77692013e5a4eee8a5f3733c7af870656b2c6f81b3c",
+      "git_blob": "7d55c2f37f0599503e5529b41156b4051bcb43d7"
+    },
+    {
+      "name": "matchups_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2022.tar.xz",
+      "bytes": 3954176,
+      "sha256": "9beaa66f389b6e2b5c538ab8738332c09f1b6a57087065b097da35eacc69b215",
+      "git_blob": "92ba1dac67571804f6b04d321242d6ea6d3566d3"
+    },
+    {
+      "name": "matchups_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2023.tar.xz",
+      "bytes": 3982516,
+      "sha256": "c91a1dad0d7649b38eb885455291c63139675e52eeda75c0b6269e4bc64aa52e",
+      "git_blob": "0409af7cf4f507c84d28c893d789bd60895da60d"
+    },
+    {
+      "name": "matchups_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2024.tar.xz",
+      "bytes": 4013596,
+      "sha256": "a83b80a597533a503b7cc35d859827d67e3a9ff064242e7d2da2955c1e911f35",
+      "git_blob": "63b3265c771edc012d38c36440cae43b005c741c"
+    },
+    {
+      "name": "matchups_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_2025.tar.xz",
+      "bytes": 4152096,
+      "sha256": "4c3ab0fb760f00238f6e9639761152a791b2f5a8eda3d14779f0bac41b7c92ef",
+      "git_blob": "b4db84e755a5fc9155bd05594ec26df2bb3f506f"
+    },
+    {
+      "name": "matchups_po_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2019.tar.xz",
+      "bytes": 247900,
+      "sha256": "e15cb64828bfa805de24975364365b0477b7ce2299c1aa2602bc0ca484026748",
+      "git_blob": "55c98785fc6322e90de3527982475fe0ff620d09"
+    },
+    {
+      "name": "matchups_po_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2020.tar.xz",
+      "bytes": 262408,
+      "sha256": "fb536b7b0d992cd52db8349297f5efcd43c8ad1caeae329c3982f09b96cca1ae",
+      "git_blob": "4bcbbcd14e688a3ccc22b46f3be4cdab87863526"
+    },
+    {
+      "name": "matchups_po_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2021.tar.xz",
+      "bytes": 268404,
+      "sha256": "7675b141c4846667cfcbfc96c80368d091ae88097f08bfe309e023409a2dd2ac",
+      "git_blob": "a56ffad298102130cb25f109a1b9787749acb312"
+    },
+    {
+      "name": "matchups_po_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2022.tar.xz",
+      "bytes": 245620,
+      "sha256": "cd0e87b48be7099ed8cbe830ca6b140f87a9e99e02c74611c1df75403ff239cf",
+      "git_blob": "e8ad0218a7311187853d8c046e62353d64f0e0b5"
+    },
+    {
+      "name": "matchups_po_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2023.tar.xz",
+      "bytes": 240352,
+      "sha256": "885645753dcb9b9ffc5de838d7b8fb0564db806fe1dae5898a59b09ee0cb7108",
+      "git_blob": "ebe7cc7747ebfbcf0d4631f80bdad3c9d2ad8cd3"
+    },
+    {
+      "name": "matchups_po_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2024.tar.xz",
+      "bytes": 264268,
+      "sha256": "0c0154893af2ea0b35f8266f4455394bcac8fa367623ef1dfa0fd29eb3635f28",
+      "git_blob": "478eb722e0e435da52ae24c0e2ca10f7698a8997"
+    },
+    {
+      "name": "matchups_po_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/matchups_po_2025.tar.xz",
+      "bytes": 276364,
+      "sha256": "da682f4190c25c8a52b4a2981a1b1d060de850d3a330fddfda1b1a3556cff4d9",
+      "git_blob": "821ac44d5dc7e203c3cfc4629f80deea518eecfc"
+    },
+    {
+      "name": "nbastatsv3_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2019.tar.xz",
+      "bytes": 7529968,
+      "sha256": "3fc651e4c294e231723fa097dca2cf938dd868ee2b9a6111f22ab9c0728e89dc",
+      "git_blob": "5648fe3abbc73c57510a2d7828ba44a63b296e8f"
+    },
+    {
+      "name": "nbastatsv3_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2020.tar.xz",
+      "bytes": 7511996,
+      "sha256": "8bbd2406d741f8247db9eec222bb1655ea699edb60907d3851a048b8ea7a798d",
+      "git_blob": "2bfd95566f5484cc9a62c57779dd94c71416ad95"
+    },
+    {
+      "name": "nbastatsv3_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2021.tar.xz",
+      "bytes": 8567128,
+      "sha256": "f44ec8a4a9864732fca66943ae4d06a06ef98ba3932571c15a23ecae644f84c4",
+      "git_blob": "82e2837312f8baff7cdc8bbe25de44f110e05d35"
+    },
+    {
+      "name": "nbastatsv3_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2022.tar.xz",
+      "bytes": 8640724,
+      "sha256": "42c24abf0abbc0ccef00addaba4b8c76df230a0ff3c0e5b301353307941fd04c",
+      "git_blob": "c57ba117f3fdde49649282682d7b3e669629c8a2"
+    },
+    {
+      "name": "nbastatsv3_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2023.tar.xz",
+      "bytes": 8622472,
+      "sha256": "3a6976219b87fb50cecf8b2c54cb2af110f2f013ed8368d694035806802c8b04",
+      "git_blob": "0675f739922130ef3d9b38c2f94e8b637fa9cade"
+    },
+    {
+      "name": "nbastatsv3_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2024.tar.xz",
+      "bytes": 8781060,
+      "sha256": "38fb8bfb43be8db3d47576600f32f25d89cc3cc05ebac77a51f4db42faf0b841",
+      "git_blob": "7d4cd35da84aa43f677364c3e56a050038f5c850"
+    },
+    {
+      "name": "nbastatsv3_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_2025.tar.xz",
+      "bytes": 8967164,
+      "sha256": "790a01ea3f0b2f8335d96bd687e21501551fc8cdea3ada83457ee3208a940671",
+      "git_blob": "a9a28fd7e731f278cf332d919163790120860ab6"
+    },
+    {
+      "name": "nbastatsv3_po_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2019.tar.xz",
+      "bytes": 574464,
+      "sha256": "f0e09f0815e489f1735914426a240e5b647dc7e0ca1812cdde39846e830970c1",
+      "git_blob": "ee4bf4e889673227427e1f26efdcccead0093981"
+    },
+    {
+      "name": "nbastatsv3_po_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2020.tar.xz",
+      "bytes": 585440,
+      "sha256": "dca8358956e9b91ee47ffc562c446e212e228dc1071fdd201e4101325ab4e46f",
+      "git_blob": "a797c8ec33db3d6019b798346f15bbe46ff45cea"
+    },
+    {
+      "name": "nbastatsv3_po_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2021.tar.xz",
+      "bytes": 593612,
+      "sha256": "8ce37e2144c61b482a5ee4e6386d7ce9f15bde1d1c25b919b6db985505e3754f",
+      "git_blob": "c1cd14016400fe061f2d1675eab0b27bf0da6af2"
+    },
+    {
+      "name": "nbastatsv3_po_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2022.tar.xz",
+      "bytes": 573940,
+      "sha256": "de43f41ac4ce2d7a579b5cd933f980e5413313ec8b5da734cc9c36d1bbb2bb3f",
+      "git_blob": "dc8546865c51d964bc9595069c998b17608c073e"
+    },
+    {
+      "name": "nbastatsv3_po_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2023.tar.xz",
+      "bytes": 549760,
+      "sha256": "7ea0923674e736051a97c6d4e6726913564a225d800947b25b8d27f0e3eb672b",
+      "git_blob": "2b8004d15c374789ec17c548ce19c5e935a34e6c"
+    },
+    {
+      "name": "nbastatsv3_po_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2024.tar.xz",
+      "bytes": 599168,
+      "sha256": "9995c1d4b14eae69a75294d9e20559cf515d54ff8c2d3167aedda4b4de5d2cb0",
+      "git_blob": "8c224ad4dd2aa2b6b507e7ae0c0acea68347116c"
+    },
+    {
+      "name": "nbastatsv3_po_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/nbastatsv3_po_2025.tar.xz",
+      "bytes": 614224,
+      "sha256": "22f8479396ee7c5cd5a286f884eab4f9020d145e49cdfd7499d8abad5e70852c",
+      "git_blob": "e7237d33250fc71b5f1f5fa643988170420f4b3e"
+    },
+    {
+      "name": "shotdetail_1996.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_1996.tar.xz",
+      "bytes": 2143444,
+      "sha256": "3828d0ba32f768087c46eb20bd30914c1570e0f10aca6dc0d0c92247b7665248",
+      "git_blob": "a100222d9b039d6632ea53194fe876590a761339"
+    },
+    {
+      "name": "shotdetail_1997.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_1997.tar.xz",
+      "bytes": 2235308,
+      "sha256": "cd3f2576b8a87f237cbcf28eb03afb7fda4eef646e471f5596715b35795b2648",
+      "git_blob": "e538a4faff116c35cbe5213898d03757b029f689"
+    },
+    {
+      "name": "shotdetail_1998.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_1998.tar.xz",
+      "bytes": 1339108,
+      "sha256": "c71e14d1d6e8f29cd91bfaebace4c378174ca4ab30700ee87fb51ef8656b53d2",
+      "git_blob": "c3a22999cd91cb7b65f1f002a2e09e9500bd9b1b"
+    },
+    {
+      "name": "shotdetail_1999.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_1999.tar.xz",
+      "bytes": 2297116,
+      "sha256": "e92c11cf10e20d7b458753dd2a9c650ff6c8a1fb4c08bd41775cda5a0773b595",
+      "git_blob": "cf0bd30e3b52b07647741500890061272ca5eba0"
+    },
+    {
+      "name": "shotdetail_2000.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2000.tar.xz",
+      "bytes": 2269036,
+      "sha256": "09c7eb4194f8134ed0ac1e72e6773114b014f9c9eca71079bcadb69bb5f16c8f",
+      "git_blob": "86559cdde2210dc6029eb09d94246bc7ee773f80"
+    },
+    {
+      "name": "shotdetail_2001.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2001.tar.xz",
+      "bytes": 2280324,
+      "sha256": "2a8a136e546806a4e6f4f0a23a3353b874d3a2b5ea32bcef73bed20a4655a272",
+      "git_blob": "c9e9dbbca5182833f1daf8b6fa0d0d35d3177584"
+    },
+    {
+      "name": "shotdetail_2002.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2002.tar.xz",
+      "bytes": 2301360,
+      "sha256": "81cb202ca453da71d0922fe981b44dd2fdbfb227cb49628fdb43e1a374bb457a",
+      "git_blob": "a6cd4111b4709afca642e79224ad459254c32525"
+    },
+    {
+      "name": "shotdetail_2003.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2003.tar.xz",
+      "bytes": 2273324,
+      "sha256": "558be852d48c95ec6d3ff1b6b9e172b3447cc3e56fa946caa171bfed6832f9b0",
+      "git_blob": "5fcfb855b0632c35bcff3689bec5bcebece082a0"
+    },
+    {
+      "name": "shotdetail_2004.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2004.tar.xz",
+      "bytes": 2365508,
+      "sha256": "4159f7e2308f7924757241d125ddfd8784ac8b17626acf08de5d1bb7960aa776",
+      "git_blob": "7e9315f60250118eb05b8a9007281a650085a4ca"
+    },
+    {
+      "name": "shotdetail_2005.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2005.tar.xz",
+      "bytes": 2325284,
+      "sha256": "b6b10669e731b8f97f9596d5f07afbf1b11c76e3997d5f65d260c2f3e7bacc3f",
+      "git_blob": "6cbbbc3bd761d07e88ff5ba73bbb770c4e821448"
+    },
+    {
+      "name": "shotdetail_2006.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2006.tar.xz",
+      "bytes": 2346208,
+      "sha256": "7c238aee908a59bb707b34da321fafcb63d677fc10349997ba7c1fb7ded96ecf",
+      "git_blob": "0dc3718b6248e8620c9dfca36ce501bdd02dc0a5"
+    },
+    {
+      "name": "shotdetail_2007.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2007.tar.xz",
+      "bytes": 2406988,
+      "sha256": "067489fce1075f51cbce32f7b59a2f5e2c406a95d8f46f830a0a492677d0ceea",
+      "git_blob": "c901dbb2c221114411ae88393ef01efdb5ca7827"
+    },
+    {
+      "name": "shotdetail_2008.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2008.tar.xz",
+      "bytes": 2398396,
+      "sha256": "4cb881e5393893bce7c672c6f2d2839a6f19de478b6ce27fcf8cf75718ffbe3a",
+      "git_blob": "ca6e0cd008844d17a6cfb1ce4cc4aad44b80350e"
+    },
+    {
+      "name": "shotdetail_2009.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2009.tar.xz",
+      "bytes": 2426968,
+      "sha256": "4f8613a0a4842acc6363a9f64360738e212ec2ca1f8f9423412e8f4e69cd134a",
+      "git_blob": "9fd31c78a74ec80589b045e3fcffa4c01f6c3fc7"
+    },
+    {
+      "name": "shotdetail_2010.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2010.tar.xz",
+      "bytes": 2529752,
+      "sha256": "e8a42d4fede746bb30abcb9df99e489af12f90499475554fdd821c3bd9fe6f2c",
+      "git_blob": "dfd162e6f68a1687ba8b88b10a1660be3a19f755"
+    },
+    {
+      "name": "shotdetail_2011.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2011.tar.xz",
+      "bytes": 2043684,
+      "sha256": "15ba3f10dd8ac286a557fc8df6116a4a2fd6ca3b66c1d1b353b650e2dbe69f1b",
+      "git_blob": "ad8336e4f0a91dc3e543c6c6e80b19236ff7683c"
+    },
+    {
+      "name": "shotdetail_2012.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2012.tar.xz",
+      "bytes": 2552452,
+      "sha256": "c626b0c04e6dc425fce11514a7a86e60dc1261565a1fa8b289f9bb31ff62c5a4",
+      "git_blob": "8de8c8782514171ab9b8ce25d7b8cdc199816b3d"
+    },
+    {
+      "name": "shotdetail_2013.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2013.tar.xz",
+      "bytes": 2584176,
+      "sha256": "de5098ccc7cd3f95c128f77fb29e7c3fcfb1987b368e93c6e121a03fbecb2de0",
+      "git_blob": "d55045fccb984b3ff8404f5869cbe97328694ba9"
+    },
+    {
+      "name": "shotdetail_2014.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2014.tar.xz",
+      "bytes": 2588860,
+      "sha256": "e2bf753050854e1eb99f6d5c5d690cdcfed4adae216726d330ef6adb3cd21513",
+      "git_blob": "904af802fdcb07193c9c6af8964cc7fdb7c2f267"
+    },
+    {
+      "name": "shotdetail_2015.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2015.tar.xz",
+      "bytes": 2609520,
+      "sha256": "ac48fad67cabf79f8a5a726aa55ea4a8c793a85eaa3835d38b46f2d0e37495a3",
+      "git_blob": "fb5b84bf6a61be16da50a351a226d3f8ed2813dd"
+    },
+    {
+      "name": "shotdetail_2016.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2016.tar.xz",
+      "bytes": 2643128,
+      "sha256": "0681285a0bf08a1ef84b24895d2a4bb709f2d192ba9134e3600567c593dacd96",
+      "git_blob": "6b384f19c4c6ea9ef3ec3228d247f648b684099b"
+    },
+    {
+      "name": "shotdetail_2017.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2017.tar.xz",
+      "bytes": 2719384,
+      "sha256": "a62d25aa9c9190477f350f06a9a2d808c7908a6720786970319a3b28af184e81",
+      "git_blob": "4364a881805de8d57653098fa5cba8a2d06b71b1"
+    },
+    {
+      "name": "shotdetail_2018.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2018.tar.xz",
+      "bytes": 2814056,
+      "sha256": "c658890976559b69dff44ed08352baf64b935514506e726d21f34950ad5bfe9d",
+      "git_blob": "622278b51c1a736f6285fd30c3b97b804e6b7b4f"
+    },
+    {
+      "name": "shotdetail_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2019.tar.xz",
+      "bytes": 2417916,
+      "sha256": "0c6002cbc8bc379ecc0a2e0f57defb2e9804be8240aa0234242002ec5dd124fe",
+      "git_blob": "c2815421761700f7fdb38f787d4ae737c9ef16c8"
+    },
+    {
+      "name": "shotdetail_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2020.tar.xz",
+      "bytes": 2456200,
+      "sha256": "02916ac0a4a0c8dcb1e115ed08ddb49b360305f98f4882c8933a2998b747487d",
+      "git_blob": "970a23863401a8d9f3cbffd16428e0ca4f53ba95"
+    },
+    {
+      "name": "shotdetail_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2021.tar.xz",
+      "bytes": 2791576,
+      "sha256": "5b56b6833d179fdef9c76223064c7923717b1add83570becf494a3f1d0a785f2",
+      "git_blob": "c8fac3b03f84245cf48bf7f91b5fee677f60c839"
+    },
+    {
+      "name": "shotdetail_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2022.tar.xz",
+      "bytes": 2792344,
+      "sha256": "62533f4e444ef0fc3354cdf6bbc04e249eb14ba9f444e6cd247c3e95d235e46d",
+      "git_blob": "daeb46e9ec992cd75f5203685c4dd15cf63a99dd"
+    },
+    {
+      "name": "shotdetail_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2023.tar.xz",
+      "bytes": 2812692,
+      "sha256": "303e71f967c199568b345cd73a75e595f1f99532cca3e6ce59afb286b63f840d",
+      "git_blob": "c71e02c310996c2dd23ed078fefd9aa6709374f6"
+    },
+    {
+      "name": "shotdetail_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2024.tar.xz",
+      "bytes": 2832144,
+      "sha256": "950100f9c84fe750ae2ac8eaeb82d24cdfb9f60a9ed04ceaa66f64789d7c216e",
+      "git_blob": "7d6d667764afbe1c06c92b9627285f8c8c97354c"
+    },
+    {
+      "name": "shotdetail_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_2025.tar.xz",
+      "bytes": 2825192,
+      "sha256": "dcb6c29edda8463132ab62f63118b5cee80d751bcbee9ad98fa38ebe12e6d33c",
+      "git_blob": "ce205934680c8c9b7ccc518385388779dbc0489d"
+    },
+    {
+      "name": "shotdetail_po_2019.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2019.tar.xz",
+      "bytes": 185492,
+      "sha256": "9d2a6772c09012033101e3e70d6584cc3d97894b156bbb3c5979dfa66a045411",
+      "git_blob": "4069dcad740356664c88b37d25f464d914a298fb"
+    },
+    {
+      "name": "shotdetail_po_2020.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2020.tar.xz",
+      "bytes": 194744,
+      "sha256": "d57f0075849a208ae2dc10e88016e0c7196c348d525929063dc07f2908dc4aa6",
+      "git_blob": "04196ca57dc17330e36d6760225a1a7cf35be22f"
+    },
+    {
+      "name": "shotdetail_po_2021.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2021.tar.xz",
+      "bytes": 192084,
+      "sha256": "ca4b2fbecd3f7de3a9a7c80798cb21146fd78e4da03eabcc85de743197015fc4",
+      "git_blob": "4626378fac495f209a3f35f994e0430d66bf3407"
+    },
+    {
+      "name": "shotdetail_po_2022.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2022.tar.xz",
+      "bytes": 193132,
+      "sha256": "9e3137fd28b590d8c7a446c286500fc01d786e483b51fcc85f461d5a89cdbe37",
+      "git_blob": "09d98f2897490105738bb2c1c57781112136dceb"
+    },
+    {
+      "name": "shotdetail_po_2023.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2023.tar.xz",
+      "bytes": 183112,
+      "sha256": "36d6a1794c2003ae7ca4a27978956fd0385aa2619d4e35f2b32637554191fdb4",
+      "git_blob": "f045f6c34583170e623a9a57003c2f45460df5ef"
+    },
+    {
+      "name": "shotdetail_po_2024.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2024.tar.xz",
+      "bytes": 191548,
+      "sha256": "2a972625db433504486d837c38c917146da269939e6d984b8024f148d3d79507",
+      "git_blob": "d3203b0c47c1d360e0e54dae915db13386af0c2d"
+    },
+    {
+      "name": "shotdetail_po_2025.tar.xz",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/e829d4678be1e075f99e5d41a1c5f97089be446b/datasets/shotdetail_po_2025.tar.xz",
+      "bytes": 191764,
+      "sha256": "3c7cf568af492ff3fa7c348d8de82ac8cff74bd37f1040c0daedc073ed5ede34",
+      "git_blob": "cc7405f104bad7908747f7ea07ad520c1f2c8437"
+    }
+  ]
+}
