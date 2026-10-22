@@ -1,10 +1,10 @@
-# Three views of Wembanyama’s defensive season
+# Wembanyama: total impact and defensive indicators
 
 Joseph Smarrelli · September 2026
 
 Wembanyama ranks **1 of 463 qualified players** in this single-season ridge model, at **+8.15 total RAPM**. The separate on/off calculation finds a **-7.8-percentage-point** change in opponents’ share of attempts within six feet, and a **-4.9-point** change in conversion on those attempts.
 
-These results describe a strong defensive profile. They do not establish how many points are caused by Wembanyama alone.
+Total RAPM combines offense and defense; it is not a defensive ranking. The rim and matchup summaries describe separate defensive indicators. They do not establish how many points are caused by Wembanyama alone.
 
 ## Adjusted plus-minus
 

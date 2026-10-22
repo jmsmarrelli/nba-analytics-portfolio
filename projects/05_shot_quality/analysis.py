@@ -89,35 +89,9 @@ def evaluate(model, test: pd.DataFrame, train: pd.DataFrame) -> dict:
 # --------------------------------------------------------------------------
 
 def fig_calibration(y: np.ndarray, p: np.ndarray, metrics: dict) -> None:
-    frac, mean_pred = calibration_curve(y, p, n_bins=20, strategy="quantile")
-
-    fig, axes = plt.subplots(1, 2, figsize=(11.5, 4.9),
-                             gridspec_kw={"width_ratios": [1, 1.15]})
-    ax = axes[0]
-    ax.plot([0, 1], [0, 1], color=viz.GRID, linewidth=1.5)
-    ax.plot(mean_pred, frac, color=viz.CATEGORICAL[0], marker="o",
-            markersize=6, markeredgecolor=viz.SURFACE, markeredgewidth=1.2)
-    ax.set_xlabel("Predicted probability the shot goes in")
-    ax.set_ylabel("Observed rate")
-    ax.set_title("Calibration on the held-out season", fontsize=11.5)
-    ax.set_xlim(0, 1); ax.set_ylim(0, 1)
-
-    ax2 = axes[1]
-    ax2.hist(p, bins=50, color=viz.FIELD_COLOR)
-    ax2.set_xlabel("Predicted probability")
-    ax2.set_ylabel("Shots")
-    ax2.set_title("Distribution of predicted shot quality", fontsize=11.5)
-
-    fig.suptitle("Calibration and prediction spread on the held-out season",
-                 x=0.005, ha="left", fontsize=13, fontweight="semibold")
-    fig.text(0.005, 0.925,
-             f"Trained on {season_label(TRAIN_SEASONS[0])} to "
-             f"{season_label(TRAIN_SEASONS[-1])}, tested on "
-             f"{season_label(TEST_SEASON)} · AUC {metrics['auc']:.3f} "
-             f"vs {metrics['baseline_auc']:.3f} for a zone-only baseline",
-             fontsize=10, color=viz.INK_SECONDARY, ha="left")
-    fig.tight_layout(rect=(0, 0, 1, 0.89))
-    viz.save(fig, FIG / "calibration.png")
+    from tools.feature_charts import render_calibration
+    with plt.rc_context():
+        render_calibration(y, p, metrics)
 
 
 def fig_quality_vs_making(team_summary: pd.DataFrame) -> None:

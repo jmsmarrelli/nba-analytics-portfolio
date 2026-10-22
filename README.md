@@ -1,5 +1,7 @@
 # Basketball statistics portfolio
 
+[Read the basketball decision brief](reports/00_decision_brief.md) · [Visual design and rebuild](tools/VISUALS.md)
+
 Joseph Smarrelli · September 2026
 
 Eight studies of NBA lineup data, player impact, forecasting, shot context, development, playing style and the 2026 Finals. The package contains finished articles, regenerated figures, Python and R source, review notebooks, derived tables and a pinned source manifest.
@@ -51,3 +53,7 @@ See [METHODS.md](METHODS.md), [VALIDATION.md](VALIDATION.md), [CHANGELOG.md](CHA
 ## Sources and rights
 
 Input records come from the [versioned public NBA archive](https://github.com/shufinskiy/nba_data/tree/e829d4678be1e075f99e5d41a1c5f97089be446b). The source manifest identifies each archive, URL and checksum. Code and documentation use the included MIT license; original data remain subject to their owners’ terms.
+
+## Current review
+
+See [current validation](VALIDATION_CURRENT.md) for executed checks and unresolved rebuild requirements, and [provenance](PROVENANCE.md) for AI assistance. [Portfolio navigation](https://github.com/jmsmarrelli/basketball-analytics).

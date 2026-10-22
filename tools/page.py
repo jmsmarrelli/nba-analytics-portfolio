@@ -34,6 +34,8 @@ def rewrite(md: str, user: str, repo: str) -> str:
 def main() -> None:
     remote = S.origin()
     md = (ROOT / "README.md").read_text(encoding="utf-8")
+    if "--check" in sys.argv[1:]:
+        raise SystemExit(S.check(md))
     if remote:
         md = rewrite(md, *remote)
     html = S.render(md, ROOT.name, remote, 0, False)
