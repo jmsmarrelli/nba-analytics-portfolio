@@ -4,7 +4,7 @@ Joseph Smarrelli · September 2026
 
 The estimated mean step is larger for the least experienced members of San Antonio’s core. That provides a useful baseline for development planning. It does not identify any player’s ceiling.
 
-| Player | Experience in 2025–26* | Mean next-season step | 80% interval for mean step |
+| Player | Experience in 2025–26* | Mean RAPM step (points/100) | 80% interval for mean RAPM step (points/100) |
 | --- | ---: | ---: | ---: |
 | Carter Bryant | 0 | +0.54 | +0.38 to +0.66 |
 | Stephon Castle | 1 | +0.40 | +0.31 to +0.47 |
